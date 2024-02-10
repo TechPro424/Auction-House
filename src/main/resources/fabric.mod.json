@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "auction-house",
+	"version": "${version}",
+	"name": "Auction House",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GNU Lesser General Public License v3.0 only",
+	"icon": "assets/auction-house/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"in.techpro424.auctionhouse.AuctionHouse"
+		]
+	},
+	"mixins": [
+		"auction-house.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
