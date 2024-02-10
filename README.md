@@ -7,6 +7,8 @@
 
 **This mod requires Fabric API.**
 
+**This mod is in a highly experimental state. Do not use it on production servers.**
+
 Auction House is a server-side mod to add your items to an "auction house" where the item can then be sold to the highest bidder at any point in time.
 
 Use the `/sell` command to add your items to the Auction House and `/auctionhouse` to access the Auction House.
@@ -17,7 +19,7 @@ These graphs can be viewed by going to `https://auction-house-api.onrender.com/v
 
 
 
-**This mod is in a highly experimental state. Do not use it on production servers.**
+
 
 
 ## Credits
