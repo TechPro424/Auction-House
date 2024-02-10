@@ -20,6 +20,7 @@ import net.minecraft.server.network.ServerPlayerEntity;
 public class RemoveBalanceCommand {
     public static void register(CommandDispatcher<ServerCommandSource> dispatcher, CommandRegistryAccess access, RegistrationEnvironment environment) {
         dispatcher.register(CommandManager.literal("removebalance")
+        .requires(source -> source.hasPermissionLevel(4))
         .then(CommandManager.argument("player", EntityArgumentType.player())
         .then(CommandManager.argument("price", LongArgumentType.longArg(0, (Long.MAX_VALUE - 1)))
         .executes(RemoveBalanceCommand::run))));
