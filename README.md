@@ -9,7 +9,11 @@
 
 Auction House is a server-side mod to add your items to an "auction house" where the item can then be sold to the highest bidder at any point in time.
 
+Use the `/sell` command to add your items to the Auction House and `/auctionhouse` to access the Auction House.
 
+
+
+**This mod is in a highly experimental state. Do not use it on production servers.**
 
 
 ## Credits
