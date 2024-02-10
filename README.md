@@ -11,6 +11,10 @@ Auction House is a server-side mod to add your items to an "auction house" where
 
 Use the `/sell` command to add your items to the Auction House and `/auctionhouse` to access the Auction House.
 
+**This mod also has an "analytics" feature (controlled by the `analyticsEnabled` config option, enabled by default).**
+This feature basically sends data about the items in the Auction House to a website that converts it into neat graphs.
+These graphs can be viewed by going to `https://auction-house-api.onrender.com/view/<server_name>/` where `server_name` is the name set in the configuration file.
+
 
 
 **This mod is in a highly experimental state. Do not use it on production servers.**
