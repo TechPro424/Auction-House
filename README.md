@@ -15,7 +15,9 @@ Use the `/sell` command to add your items to the Auction House and `/auctionhous
 
 **This mod also has an "analytics" feature (controlled by the `analyticsEnabled` config option, enabled by default).**
 This feature basically sends data about the items in the Auction House to a website that converts it into neat graphs.
-These graphs can be viewed by going to `https://auction-house-api.onrender.com/view/<server_name>/` where `server_name` is the name set in the configuration file.
+These graphs can be viewed by going to `https://auction-house-api.onrender.com/view/<server_name>/` where `server_name` is the name set in the configuration file. 
+
+To see how your items' data is being used, go to https://github.com/Rafayel08/minecraft-auction-house-api (this is the repository that houses the source code for the analytics and graph generation)
 
 
 
